@@ -54,7 +54,7 @@ st.write("Welcome to the Music Recommendation System! Select a song to get recom
 # Load song list and similarity matrix
 song_list = pickle.load(open('https://github.com/AdarshVerma5/MusicReccomendation/blob/main/SongRecommendation/musicForLovers.pkl', 'rb'))
 songs = pd.DataFrame(song_list)
-similarity = pickle.load(open('similarityFounded.pkl', 'rb'))
+similarity = pickle.load(open('https://github.com/AdarshVerma5/MusicReccomendation/blob/main/SongRecommendation/similarityFounded.pkl', 'rb'))
 
 # User selects a song
 selected_song = st.selectbox(
